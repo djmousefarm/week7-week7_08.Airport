@@ -18,4 +18,8 @@ public class FlightPath {
         this.departureAirport = departureAirport;
         this.destinationAirport = destinationAirport;
     }
+    
+    public String toString() {
+        return this.airplane.toString() + " (" + this.departureAirport + "-" + this.destinationAirport + ")";
+    }
 }
